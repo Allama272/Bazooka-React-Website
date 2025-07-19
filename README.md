@@ -25,11 +25,11 @@ Full functioning restaurant website for bazooka as a refrence
 
 - wishlist
   
-    <img src="read_me_images/2025-07-19-14-46-47-image.png" title="" alt="" width="558">
+<img src="read_me_images/2025-07-19-14-46-47-image.png" title="" alt="" width="558">
 
 
 - cart
-    <img src="read_me_images/2025-07-19-14-46-17-image.png" title="" alt="" width="558">
+<img src="read_me_images/2025-07-19-14-46-17-image.png" title="" alt="" width="558">
 
 - appility to add to cart, specify amount to be added
 
