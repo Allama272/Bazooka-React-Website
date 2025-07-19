@@ -67,7 +67,7 @@ const Contact = () => {
               🔥 Ready to experience crispy perfection? Order now! 🔥
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <button className="group px-8 py-4 bg-bazooka-orange text-black font-bold text-xl rounded-full shadow-2xl hover:shadow-bazooka-orange/50 transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-3">
+              <button className="group px-4 lg:px-8 py-4 bg-bazooka-orange text-black font-bold text-xl rounded-full shadow-2xl hover:shadow-bazooka-orange/50 transform hover:scale-105 transition-all duration-300 flex items-center justify-center space-x-3">
                 <Truck className="w-6 h-6 group-hover:animate-bounce" />
                 <span>ORDER NOW: 16123</span>
               </button>
@@ -90,14 +90,14 @@ const Contact = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {contactInfo.map((info, index) => (
-              <div key={index} className="group bg-white p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 text-center transform hover:-translate-y-2">
+              <div key={index} className="group bg-white px-5 p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 text-center transform hover:-translate-y-2">
                 <div className="bg-gradient-to-r from-bazooka-orange to-bazooka-red text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
                   {info.icon}
                 </div>
                 <h3 className="text-xl font-bold text-bazooka-charcoal mb-3">
                   {info.title}
                 </h3>
-                <p className="text-2xl font-black text-bazooka-orange mb-2">
+                <p className="text-2xl font-black text-bazooka-orange mb-2 break-all">
                   {info.details}
                 </p>
                 <p className="text-gray-600">
@@ -241,7 +241,7 @@ const Contact = () => {
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
               <a
                 href="tel:16123"
-                className="group px-12 py-5 bg-bazooka-orange text-black font-black text-2xl rounded-full shadow-2xl hover:shadow-bazooka-orange/50 transform hover:scale-105 transition-all duration-300 flex items-center space-x-3"
+                className="group px-5 lg:px-12 py-5 bg-bazooka-orange text-black font-black text-2xl rounded-full shadow-2xl hover:shadow-bazooka-orange/50 transform hover:scale-105 transition-all duration-300 flex items-center space-x-3"
               >
                 <Phone className="w-6 h-6 group-hover:animate-pulse" />
                 <span>CALL 16123 NOW</span>

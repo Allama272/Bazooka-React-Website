@@ -35,7 +35,7 @@ const Header = () => {
             <img 
               src="/images/logo.png" 
               alt="Bazooka Restaurant" 
-              className="h-8 lg:h-14 w-auto" 
+              className="h-12 lg:h-14 w-auto" 
             />
           </Link>
 
