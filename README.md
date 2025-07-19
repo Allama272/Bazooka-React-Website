@@ -14,21 +14,22 @@ Full functioning restaurant website for bazooka as a refrence
 
 - contact page
   
-  ![](read_me_images\2025-07-19-14-45-51-image.png)
+    <img src="read_me_images/2025-07-19-14-45-51-image.png" title="" alt="" width="558">
 
 - menu page
   
-  ![](read_me_images\2025-07-19-15-11-14-image.png)
+      <img src="read_me_images/2025-07-19-15-11-14-image.png" title="" alt="" width="558">
+
 
 - search bar
 
 - wishlist
   
-  ![](read_me_images\2025-07-19-14-46-47-image.png)
+      <img src="read_me_images/2025-07-19-14-46-47-image.png" title="" alt="" width="558">
+
 
 - cart
-  
-  ![](read_me_images\2025-07-19-14-46-17-image.png)
+    <img src="read_me_images/2025-07-19-14-46-17-image.png" title="" alt="" width="558">
 
 - appility to add to cart, specify amount to be added
 
