@@ -80,7 +80,7 @@ const Menu = () => {
       </section>
 
       {/* Category Filter */}
-      <section className="bg-white py-8 shadow-sm sticky top-14 lg:top-24 z-40 ">
+      <section className="bg-white py-8 shadow-sm sticky top-14 lg:top-20 z-40 ">
         <div className="container mx-auto">
           <div className="flex flex-wrap justify-center gap-2 lg:gap-4">
             {categories.map((category) => (
