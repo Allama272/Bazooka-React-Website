@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-bazooka-orange: #e7b90b;
+  --color-bazooka-charcoal: #101010;
+  --color-bazooka-red: #d59a27;
+  --color-bazooka-steel: #6C757D;
+  --color-bazooka-cream: #F8F9FA;
+
+  --font-family-heading: 'Bebas Neue', sans-serif;
+  --font-family-body: 'Open Sans', sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-family-body);
+    @apply text-bazooka-charcoal;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-heading);
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-bazooka-red hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300;
+  }
+
+  .btn-secondary {
+    @apply bg-bazooka-orange hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-300;
+  }
+
+  .explosive-gradient {
+    @apply bg-gradient-to-r from-bazooka-orange to-bazooka-red;
+  }
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .fade-in {
+    animation: fadeIn 0.6s ease-in;
+  }
+  
+  .slide-up {
+    animation: slideUp 0.8s ease-out;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { 
+    opacity: 0; 
+    transform: translateY(30px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
